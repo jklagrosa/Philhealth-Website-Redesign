@@ -9,9 +9,6 @@ module.exports = {
       center: true,
     },
     extend: {
-      backgroundImage: {
-        hero: "url('/assets/hero.jpg')",
-      },
       colors: {
         primary: "#329900",
       },
