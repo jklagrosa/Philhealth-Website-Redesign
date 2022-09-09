@@ -7,13 +7,11 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: {
-        DEFAULT: "1rem",
-        md: "2rem",
-        "2xl": "4rem",
-      },
     },
     extend: {
+      backgroundImage: {
+        hero: "url('/assets/hero.jpg')",
+      },
       colors: {
         primary: "#329900",
       },
