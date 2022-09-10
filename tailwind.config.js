@@ -9,6 +9,9 @@ module.exports = {
       center: true,
     },
     extend: {
+      backgroundImage: {
+        members: "url('/assets/members.jpg')",
+      },
       colors: {
         primary: "#329900",
       },

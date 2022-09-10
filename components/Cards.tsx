@@ -4,8 +4,8 @@ function Cards() {
   return (
     <>
       <div className="2xl:container p-4 grid ">
-        <div className="grid grid-cols-1">
-          <div className="mb-6 border-b-2 border-b-primary">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-5">
+          <div>
             <img
               src="/assets/hero.jpg"
               className="mb-2 w-full h-40 object-cover object-top"
@@ -13,7 +13,7 @@ function Cards() {
             <h1 className="mb-2 text-xl font-medium first-letter:text-primary">
               Benefits
             </h1>
-            <p className="mb-5 text-gray-700 text-sm">
+            <p className=" text-gray-700 text-sm">
               Qui labore elit elit ea laborum cillum qui proident in sint.
               Voluptate fugiat quis mollit pariatur voluptate ex laboris commodo
               Lorem nostrud nisi laboris consectetur. Exercitation eu consequat
@@ -24,7 +24,7 @@ function Cards() {
             </p>
           </div>
           {/*  */}
-          <div className="mb-6 border-b-2 border-b-primary">
+          <div>
             <img
               src="/assets/family.jpg"
               className="mb-2 w-full h-40 object-cover object-top"
@@ -32,7 +32,7 @@ function Cards() {
             <h1 className="mb-2 text-xl font-medium first-letter:text-primary">
               Members
             </h1>
-            <p className="mb-5 text-gray-700 text-sm">
+            <p className=" text-gray-700 text-sm">
               Qui labore elit elit ea laborum cillum qui proident in sint.
               Voluptate fugiat quis mollit pariatur voluptate ex laboris commodo
               Lorem nostrud nisi laboris consectetur. Exercitation eu consequat
@@ -43,7 +43,7 @@ function Cards() {
             </p>
           </div>
           {/*  */}
-          <div className="mb-6 border-b-2 border-b-primary">
+          <div>
             <img
               src="/assets/services.jpg"
               className="mb-2 w-full h-40 object-fill object-top"
@@ -51,7 +51,7 @@ function Cards() {
             <h1 className="mb-2 text-xl font-medium first-letter:text-primary">
               Online Services
             </h1>
-            <p className="mb-5 text-gray-700 text-sm">
+            <p className=" text-gray-700 text-sm">
               Qui labore elit elit ea laborum cillum qui proident in sint.
               Voluptate fugiat quis mollit pariatur voluptate ex laboris commodo
               Lorem nostrud nisi laboris consectetur. Exercitation eu consequat
@@ -62,7 +62,7 @@ function Cards() {
             </p>
           </div>
           {/*  */}
-          <div className="mb-6 border-b-2 border-b-primary">
+          <div>
             <img
               src="/assets/partners.jpg"
               className="mb-2 w-full h-40 object-cover object-top"
@@ -70,7 +70,7 @@ function Cards() {
             <h1 className="mb-2 text-xl font-medium first-letter:text-primary">
               Our Partners
             </h1>
-            <p className="mb-5 text-gray-700 text-sm">
+            <p className=" text-gray-700 text-sm">
               Qui labore elit elit ea laborum cillum qui proident in sint.
               Voluptate fugiat quis mollit pariatur voluptate ex laboris commodo
               Lorem nostrud nisi laboris consectetur. Exercitation eu consequat
@@ -81,21 +81,21 @@ function Cards() {
             </p>
           </div>
           {/*  */}
-          <div className="mb-6">
+          <div>
             <img
               src="/assets/konsulta.png"
               className="w-full h-46 object-cover object-center"
             />
           </div>
           {/*  */}
-          <div className="mb-6">
+          <div>
             <img
               src="/assets/health.jpg"
               className="w-full h-46 object-cover object-center"
             />
           </div>
           {/*  */}
-          <div className="mb-6">
+          <div>
             <img
               src="/assets/breastfeed.png"
               className="w-full h-46 object-cover object-center"

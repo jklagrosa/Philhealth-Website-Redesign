@@ -1,9 +1,10 @@
 import React from "react";
+import AboutCards from "../../components/AboutCards";
 
 function About() {
   return (
     <>
-      <div className="2xl:container min-h-screen"></div>
+      <AboutCards />
     </>
   );
 }
